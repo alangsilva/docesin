@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+        
+}
+
+/* gestão do header */
+
+header {
+    
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+    position: fixed;
+    z-index: 1000;
+}
+
+#menu {
+    padding: 10px;
+    text-align: center;
+}    
+
+#menu a {
+    text-decoration: none;
+    color:  #E7E2FC;
+    padding: 170px;
+    font-size: 25px;
+    display: inline;
+}
+
+@media (max-width: 1700px) {
+    #menu a {
+        color:  #E7E2FC;
+        padding: 145px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1600px) {
+    #menu a {
+        color:  #E7E2FC;
+        padding: 120px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1500px) {
+    #menu a {
+        color:  #E7E2FC;
+        padding: 100px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1350px) {
+    #menu a {
+        color:  #E7E2FC;
+        padding: 90px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #menu a {
+        color:  #E7E2FC;
+        padding: 80px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1100px) {
+    #menu a {
+        color:  #E7E2FC;
+        padding: 65px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    #menu a {
+        padding: 50px;
+        
+    }
+}
+
+@media (max-width: 800px) {
+    #menu a {
+        padding: 45px;
+        font-size: 18px;
+        
+    }
+}
+
+@media (max-width: 700px) {
+    #menu a {
+        padding: 35px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    #menu a {
+        padding: 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    #menu a {
+        padding: 15px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    #menu a {
+        padding: 10px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    #menu a {
+        padding: 3px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 200px) {
+    #menu a {
+        padding: 1px;
+        font-size: 8px;
+    }
+}
+
+/* Gestão Content */
+
+#home,
+#produtos,
+#quemsomos,
+#contato {
+    background-color: white;
+    padding: 95px 0 0 0;
+    min-height: 1000px;
+    
+    /*overflow: auto; */
+}
+
+h2 {
+    font-size: 60px;
+    padding: 60px 60px 60px 60px;
+}
+
+p {
+    padding: 100px 50px 0 50px;
+    font-size: 50px;
+}
+
+@media (max-width: 1500px) {
+    h2 {
+        font-size: 50px;
+        padding: 40px 40px 40px 40px;
+    }
+    
+    p {
+        padding: 80px 40px 0 40px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    h2 {
+        font-size: 40px;
+        padding: 30px 30px 30px 30px;
+    }
+    
+    p {
+        padding: 60px 30px 0 30px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 700px) {
+    h2 {
+        font-size: 30px;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    p {
+        padding: 40px 15px 0 15px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    p {
+        padding: 30px 10px 0 10px;
+        font-size: 20px;
+    }
+}
+
+/* Gestão Home */
+
+#home {
+    padding: 90px 0 10px 0;    
+    background-image: url(../img/Rafha3.png);
+    background-size: 850px 850px;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 850px;
+    text-shadow: rgb(126, 208, 223) 1.5px 1.5px;
+}
+
+.whatshome {
+    font: arial;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    border: solid;
+    
+}
+
+
+.A {
+    text-align: left;
+    font-size: 100px;
+    padding: 50px 0 0 50px;
+    color: rgb(255, 78, 202);
+}
+
+.B {
+    text-align: left;
+    font-size: 100px;
+    padding: 50px 0 0 250px;
+    color: rgb(255, 78, 202);
+}
+
+.C {
+    text-align: left;
+    font-size: 30px;
+    text-align: justify;
+    padding: 150px 990px 0 200px;
+    color: black;
+    text-shadow: none;
+    margin: 0 50px;
+}
+
+.D {
+    text-align: left;
+    font-size: 50px;
+    padding: 100px 0 50px 50px;
+    text-shadow: none;
+}
+
+@media (max-width: 200px) {
+    #home {
+        padding: 90px 0 10px 0;    
+        background-size: 200px 200px;
+        background-position: right;
+        min-height: 400px;
+        text-shadow: rgb(126, 208, 223) 0.5px 0.5px;
+    }
+}
+
+/* Animação #home */
+
+.animacao {
+    transform: scale(0.5) translatey(50vh);   
+    opacity: 0;
+    animation: linear 2s animacaoTitulos forwards;
+}
+
+@keyframes animacaoTitulos {
+    0% {
+        transform: scale(0.5) translatey(50vh);
+        opacity: 0;
+    }        
+
+    100% {
+        transform: scale(1) translatey(0);
+        opacity: 1;
+    }
+}
+
+/* Gestão Contato */
+
+#contato {
+    min-height: 800px;
+}
+
+/* Gestão footer*/
+
+footer {
+    margin: auto;
+    background-color: #E7E2FC;
+    text-align: center;
+    font-size: 15px;
+    height: 50px;
+    padding: 0 0 50px 0;
+}
+
+.whats {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(140, 246, 250);
+    padding: 10px;
+}
+
