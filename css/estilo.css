@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-        
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;        
 }
 
 /* gestão do header */
@@ -260,14 +262,187 @@ p {
     text-shadow: none;
 }
 
+
+@media (max-width: 800px) {
+    #home {
+        padding: 0;    
+        background-size: 350px 350px;
+        background-position: center;
+        min-height: 50px;
+    }
+        
+    .A {
+        text-align: center;
+        font-size: 50px;
+        padding: 180px 0 0 0;
+    }
+    
+    .B {
+        text-align: center;
+        font-size: 50px;
+        padding: 20px 0 0 0;
+        
+    }
+    
+    .C {
+        text-align: center;
+        font-size: 35px;
+        text-align: justify;
+        padding: 380px 15px 15px 15px;
+        margin: 0;
+    }
+    
+    .D {
+        text-align: left;
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .whatshome {
+        font-size: 30px;
+        padding: 5px 1px 0 1px;
+        
+        
+    }
+}
+
+@media (max-width: 600px) {
+    #home {
+        padding: 0;    
+        background-size: 200px 200px;
+        background-position: center;
+        min-height: 50px;
+    }
+    
+    
+    
+    
+    .A {
+        text-align: center;
+        font-size: 25px;
+        padding: 80px 0 0 0;
+    }
+    
+    .B {
+        text-align: center;
+        font-size: 25px;
+        padding: 8px 0 0 0;
+        
+    }
+    
+    .C {
+        text-align: center;
+        font-size: 18px;
+        text-align: justify;
+        padding: 230px 15px 15px 15px;
+        margin: 0;
+    }
+    
+    .D {
+        text-align: left;
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    .whatshome {
+        font-size: 15px;
+        padding: 5px 1px 0 1px;
+        
+        
+    }
+}
+
+@media (max-width: 400px) {
+    #home {
+        padding: 0;    
+        background-size: 150px 150px;
+        background-position: center;
+        min-height: 50px;
+    }
+    
+    
+    
+    
+    .A {
+        text-align: center;
+        font-size: 12px;
+        padding: 60px 0 0 0;
+    }
+    
+    .B {
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 0 0 0;
+        
+    }
+    
+    .C {
+        text-align: center;
+        font-size: 12px;
+        text-align: justify;
+        padding: 180px 15px 5px 15px;
+        margin: 0;
+    }
+    
+    .D {
+        text-align: left;
+        font-size: 12px;
+        padding: 1px;
+    }
+
+    .whatshome {
+        font-size: 12px;
+        padding: 5px 1px 0 1px;
+        
+        
+    }
+}
+
+
 @media (max-width: 200px) {
     #home {
-        padding: 90px 0 10px 0;    
-        background-size: 200px 200px;
-        background-position: right;
-        min-height: 400px;
-        text-shadow: rgb(126, 208, 223) 0.5px 0.5px;
+        padding: 0;    
+        background-size: 150px 150px;
+        background-position: center;
+        min-height: 50px;
     }
+    
+    
+    
+    .A {
+        text-align: center;
+        font-size: 12px;
+        padding: 60px 0 0 0;
+    }
+    
+    .B {
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 0 0 0;
+        
+    }
+    
+    .C {
+        text-align: center;
+        font-size: 11px;
+        text-align: justify;
+        padding: 180px 15px 5px 15px;
+        margin: 0;
+    }
+    
+    .D {
+        text-align: left;
+        font-size: 12px;
+        padding: 15px 1px 1px 1px;
+    }
+
+    .whatshome {
+        font-size: 12px;
+        padding: 1px;
+        
+        
+    }
+    
 }
 
 /* Animação #home */
@@ -288,6 +463,113 @@ p {
         transform: scale(1) translatey(0);
         opacity: 1;
     }
+}
+
+/* Gestão do Container */
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    /* border: 1px solid black; */
+}
+
+@media (min-width: 1750px) {
+    .container {
+        width: 1750px;
+        padding: 0;
+    }
+}
+
+
+/* Gestão do Container - linha */
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+    .row:before,
+    .row:after {
+        content: "";
+        display: table;
+    }
+
+    .row:after {
+        clear: both;
+    }
+
+
+/* Gestão do Container - colunas */
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+
+    /* Gestão do Container - reset da magin do diplay: inline-block*/
+    margin-right: -4px;
+
+    /* Gestão do Container - rack para dar suporte a navegadores mais antigos, como o IE*/
+    *zoom: 1;
+    *display: inline;
+}
+
+/* Gestão do Container - Duas colunas */
+
+@media (min-width: 480px) {
+    .col-2{
+        width: 50%;
+    }
+}
+
+/* Gestão do Container - Três colunas*/
+
+@media (min-width: 720px) {
+    .col-3{
+        width: 33.3333%;
+    }
+
+  
+}
+
+/* Gestão do Container - Quatro colunas*/
+
+@media (min-width: 1000px) {
+    .col-4{
+        width: 25%;
+    } 
+}
+
+/* Gestão do Container - Conteúdo e sidebar */
+
+@media (min-width: 920px) {
+    .col-content {
+        width: 65%;
+    }
+
+    .col-sidebar {
+        width: 35%;
+    }
+}
+
+
+/* Gestão do Container - usar apenas para teste - demonstração */
+
+.teste {
+    /* background: pink; */
+    padding: 2px;
+    text-align: center;
+    margin: 2px 0;
+    color: black;
+}
+
+.big {
+    height: 50px;
 }
 
 /* Gestão Contato */
