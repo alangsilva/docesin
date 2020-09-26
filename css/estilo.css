@@ -228,13 +228,9 @@ p {
     padding: 10px;
     border: solid;
     
-}
-
-#icone {
-    width: 30px;
-    height: 30px;
     
 }
+
 
 .A {
     text-align: left;
@@ -265,8 +261,14 @@ p {
     font-size: 50px;
     padding: 100px 0 50px 50px;
     text-shadow: none;
+    
 }
 
+#icone {
+    width: 30px;
+    height: 30px;
+    
+}
 
 @media (max-width: 800px) {
     #home {
@@ -301,6 +303,7 @@ p {
         text-align: left;
         font-size: 30px;
         padding: 5px;
+        margin: 20px 0 0 0;
     }
 
     .whatshome {
@@ -347,19 +350,19 @@ p {
         font-size: 18px;
         text-align: justify;
         padding: 230px 15px 15px 15px;
-        margin: 0;
+        
     }
     
     .D {
         text-align: left;
         font-size: 15px;
         padding: 3px;
+        margin: 20px 0 0 0;
     }
 
     .whatshome {
         font-size: 15px;
         padding: 5px 1px 0 1px;
-        
         
     }
 
@@ -407,6 +410,7 @@ p {
         text-align: left;
         font-size: 12px;
         padding: 1px;
+        margin: 16px 0 0 0;
     }
 
     .whatshome {
@@ -460,6 +464,7 @@ p {
         text-align: left;
         font-size: 12px;
         padding: 15px 1px 1px 1px;
+        margin: 12px 0 0 0;
     }
 
     .whatshome {
