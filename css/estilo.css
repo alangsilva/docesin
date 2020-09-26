@@ -309,7 +309,7 @@ p {
     .whatshome {
         font-size: 30px;
         padding: 5px 1px 0 1px;
-        
+        margin: 0 0 0 15px;
         
     }
 
@@ -363,7 +363,7 @@ p {
     .whatshome {
         font-size: 15px;
         padding: 5px 1px 0 1px;
-        
+        margin: 0 0 0 15px;
     }
 
     #icone {
@@ -416,7 +416,7 @@ p {
     .whatshome {
         font-size: 12px;
         padding: 5px 1px 0 1px;
-        
+        margin: 0 0 0 15px;
         
     }
 
@@ -470,7 +470,7 @@ p {
     .whatshome {
         font-size: 12px;
         padding: 1px;
-        
+        margin: 0 0 0 15px;
         
     }
 
@@ -619,6 +619,13 @@ p {
     text-align: center;
     margin: 2px 0;
     color: black;
+    vertical-align: middle;
+}
+
+.descricao {
+    color: hotpink;
+    align-content: center;
+    padding: 15px;
 }
 
 .big {
